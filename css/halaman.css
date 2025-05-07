@@ -1,19 +1,33 @@
 body {
-    background-color: lightblue;
+    background-color: #edf3ff;
     font-family: 'Times New Roman', Times, serif;
-    padding: 10px;
+    color: #fff;
 }
 
-h1, h2 {
+h1 {
     text-align: center;
     border-radius: 20px;
     margin: auto;
     color: rgb(2, 2, 2);
 }
 
-p {
+div {
     text-align: center;
-    font-size: x-large;
-    font-style: initial;
+}
 
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #0ef;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #0ef;
+    font-size: 16px;
+    color: #1f242d;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    text-align: center;
 }
